@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202A7FA521F5229A00DAFD36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A7FA421F5229A00DAFD36 /* AppDelegate.swift */; };
+		202A7FA721F5229A00DAFD36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A7FA621F5229A00DAFD36 /* ViewController.swift */; };
+		202A7FAA21F5229A00DAFD36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202A7FA821F5229A00DAFD36 /* Main.storyboard */; };
+		202A7FAC21F5229D00DAFD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202A7FAB21F5229D00DAFD36 /* Assets.xcassets */; };
+		202A7FAF21F5229D00DAFD36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202A7FAD21F5229D00DAFD36 /* LaunchScreen.storyboard */; };
+		202A7FBA21F5229D00DAFD36 /* ImageDeleteChecksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A7FB921F5229D00DAFD36 /* ImageDeleteChecksTests.swift */; };
+		202A7FC521F5229D00DAFD36 /* ImageDeleteChecksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A7FC421F5229D00DAFD36 /* ImageDeleteChecksUITests.swift */; };
+		824805F3F54DFEAB89378871 /* Pods_ImageDeleteChecks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94640CB866E6BE2E255E1CD2 /* Pods_ImageDeleteChecks.framework */; };
+		C8F7D6DA67C514D09C2D96C2 /* Pods_ImageDeleteChecksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAADD09A3BB160A364090B57 /* Pods_ImageDeleteChecksTests.framework */; };
+		CC030675330A78E0F733E435 /* Pods_ImageDeleteChecksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED20AFCFB9B7B8EACE409A76 /* Pods_ImageDeleteChecksUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		202A7FB621F5229D00DAFD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202A7F9921F5229A00DAFD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202A7FA021F5229A00DAFD36;
+			remoteInfo = ImageDeleteChecks;
+		};
+		202A7FC121F5229D00DAFD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202A7F9921F5229A00DAFD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202A7FA021F5229A00DAFD36;
+			remoteInfo = ImageDeleteChecks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010F03664A69F618B9A0E566 /* Pods-ImageDeleteChecksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageDeleteChecksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageDeleteChecksUITests/Pods-ImageDeleteChecksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		02A31E73A33CD6BED499ACEE /* Pods-ImageDeleteChecks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageDeleteChecks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageDeleteChecks/Pods-ImageDeleteChecks.debug.xcconfig"; sourceTree = "<group>"; };
+		202A7FA121F5229A00DAFD36 /* ImageDeleteChecks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDeleteChecks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202A7FA421F5229A00DAFD36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		202A7FA621F5229A00DAFD36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		202A7FA921F5229A00DAFD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		202A7FAB21F5229D00DAFD36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		202A7FAE21F5229D00DAFD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		202A7FB021F5229D00DAFD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202A7FB521F5229D00DAFD36 /* ImageDeleteChecksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDeleteChecksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		202A7FB921F5229D00DAFD36 /* ImageDeleteChecksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDeleteChecksTests.swift; sourceTree = "<group>"; };
+		202A7FBB21F5229D00DAFD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202A7FC021F5229D00DAFD36 /* ImageDeleteChecksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDeleteChecksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		202A7FC421F5229D00DAFD36 /* ImageDeleteChecksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDeleteChecksUITests.swift; sourceTree = "<group>"; };
+		202A7FC621F5229D00DAFD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327C563F58FE2509C4EC3F41 /* Pods-ImageDeleteChecksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageDeleteChecksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageDeleteChecksTests/Pods-ImageDeleteChecksTests.release.xcconfig"; sourceTree = "<group>"; };
+		479CFE001643EA9384D1F075 /* Pods-ImageDeleteChecksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageDeleteChecksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageDeleteChecksTests/Pods-ImageDeleteChecksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94640CB866E6BE2E255E1CD2 /* Pods_ImageDeleteChecks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageDeleteChecks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D6D52B0198CD75E9EDB2A5 /* Pods-ImageDeleteChecks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageDeleteChecks.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageDeleteChecks/Pods-ImageDeleteChecks.release.xcconfig"; sourceTree = "<group>"; };
+		AAADD09A3BB160A364090B57 /* Pods_ImageDeleteChecksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageDeleteChecksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC21BEB1666A1D8DF0B53DFF /* Pods-ImageDeleteChecksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageDeleteChecksUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageDeleteChecksUITests/Pods-ImageDeleteChecksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED20AFCFB9B7B8EACE409A76 /* Pods_ImageDeleteChecksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageDeleteChecksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202A7F9E21F5229A00DAFD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824805F3F54DFEAB89378871 /* Pods_ImageDeleteChecks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202A7FB221F5229D00DAFD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F7D6DA67C514D09C2D96C2 /* Pods_ImageDeleteChecksTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202A7FBD21F5229D00DAFD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC030675330A78E0F733E435 /* Pods_ImageDeleteChecksUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202A7F9821F5229A00DAFD36 = {
+			isa = PBXGroup;
+			children = (
+				202A7FA321F5229A00DAFD36 /* ImageDeleteChecks */,
+				202A7FB821F5229D00DAFD36 /* ImageDeleteChecksTests */,
+				202A7FC321F5229D00DAFD36 /* ImageDeleteChecksUITests */,
+				202A7FA221F5229A00DAFD36 /* Products */,
+				49577783040ECE52A2DB73AD /* Pods */,
+				9BB7C63631E8AFD9153035B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		202A7FA221F5229A00DAFD36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202A7FA121F5229A00DAFD36 /* ImageDeleteChecks.app */,
+				202A7FB521F5229D00DAFD36 /* ImageDeleteChecksTests.xctest */,
+				202A7FC021F5229D00DAFD36 /* ImageDeleteChecksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202A7FA321F5229A00DAFD36 /* ImageDeleteChecks */ = {
+			isa = PBXGroup;
+			children = (
+				202A7FA421F5229A00DAFD36 /* AppDelegate.swift */,
+				202A7FA621F5229A00DAFD36 /* ViewController.swift */,
+				202A7FA821F5229A00DAFD36 /* Main.storyboard */,
+				202A7FAB21F5229D00DAFD36 /* Assets.xcassets */,
+				202A7FAD21F5229D00DAFD36 /* LaunchScreen.storyboard */,
+				202A7FB021F5229D00DAFD36 /* Info.plist */,
+			);
+			path = ImageDeleteChecks;
+			sourceTree = "<group>";
+		};
+		202A7FB821F5229D00DAFD36 /* ImageDeleteChecksTests */ = {
+			isa = PBXGroup;
+			children = (
+				202A7FB921F5229D00DAFD36 /* ImageDeleteChecksTests.swift */,
+				202A7FBB21F5229D00DAFD36 /* Info.plist */,
+			);
+			path = ImageDeleteChecksTests;
+			sourceTree = "<group>";
+		};
+		202A7FC321F5229D00DAFD36 /* ImageDeleteChecksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				202A7FC421F5229D00DAFD36 /* ImageDeleteChecksUITests.swift */,
+				202A7FC621F5229D00DAFD36 /* Info.plist */,
+			);
+			path = ImageDeleteChecksUITests;
+			sourceTree = "<group>";
+		};
+		49577783040ECE52A2DB73AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02A31E73A33CD6BED499ACEE /* Pods-ImageDeleteChecks.debug.xcconfig */,
+				96D6D52B0198CD75E9EDB2A5 /* Pods-ImageDeleteChecks.release.xcconfig */,
+				479CFE001643EA9384D1F075 /* Pods-ImageDeleteChecksTests.debug.xcconfig */,
+				327C563F58FE2509C4EC3F41 /* Pods-ImageDeleteChecksTests.release.xcconfig */,
+				CC21BEB1666A1D8DF0B53DFF /* Pods-ImageDeleteChecksUITests.debug.xcconfig */,
+				010F03664A69F618B9A0E566 /* Pods-ImageDeleteChecksUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9BB7C63631E8AFD9153035B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94640CB866E6BE2E255E1CD2 /* Pods_ImageDeleteChecks.framework */,
+				AAADD09A3BB160A364090B57 /* Pods_ImageDeleteChecksTests.framework */,
+				ED20AFCFB9B7B8EACE409A76 /* Pods_ImageDeleteChecksUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202A7FA021F5229A00DAFD36 /* ImageDeleteChecks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202A7FC921F5229D00DAFD36 /* Build configuration list for PBXNativeTarget "ImageDeleteChecks" */;
+			buildPhases = (
+				EB15D7E57C1F3D7167817250 /* [CP] Check Pods Manifest.lock */,
+				202A7F9D21F5229A00DAFD36 /* Sources */,
+				202A7F9E21F5229A00DAFD36 /* Frameworks */,
+				202A7F9F21F5229A00DAFD36 /* Resources */,
+				F806F80F3112022056505827 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageDeleteChecks;
+			productName = ImageDeleteChecks;
+			productReference = 202A7FA121F5229A00DAFD36 /* ImageDeleteChecks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		202A7FB421F5229D00DAFD36 /* ImageDeleteChecksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202A7FCC21F5229D00DAFD36 /* Build configuration list for PBXNativeTarget "ImageDeleteChecksTests" */;
+			buildPhases = (
+				487DC3B5E269B43301D5F952 /* [CP] Check Pods Manifest.lock */,
+				202A7FB121F5229D00DAFD36 /* Sources */,
+				202A7FB221F5229D00DAFD36 /* Frameworks */,
+				202A7FB321F5229D00DAFD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202A7FB721F5229D00DAFD36 /* PBXTargetDependency */,
+			);
+			name = ImageDeleteChecksTests;
+			productName = ImageDeleteChecksTests;
+			productReference = 202A7FB521F5229D00DAFD36 /* ImageDeleteChecksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		202A7FBF21F5229D00DAFD36 /* ImageDeleteChecksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202A7FCF21F5229D00DAFD36 /* Build configuration list for PBXNativeTarget "ImageDeleteChecksUITests" */;
+			buildPhases = (
+				6E821085306C99D46672E907 /* [CP] Check Pods Manifest.lock */,
+				202A7FBC21F5229D00DAFD36 /* Sources */,
+				202A7FBD21F5229D00DAFD36 /* Frameworks */,
+				202A7FBE21F5229D00DAFD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202A7FC221F5229D00DAFD36 /* PBXTargetDependency */,
+			);
+			name = ImageDeleteChecksUITests;
+			productName = ImageDeleteChecksUITests;
+			productReference = 202A7FC021F5229D00DAFD36 /* ImageDeleteChecksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202A7F9921F5229A00DAFD36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mighty Strong Software";
+				TargetAttributes = {
+					202A7FA021F5229A00DAFD36 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					202A7FB421F5229D00DAFD36 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 202A7FA021F5229A00DAFD36;
+					};
+					202A7FBF21F5229D00DAFD36 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 202A7FA021F5229A00DAFD36;
+					};
+				};
+			};
+			buildConfigurationList = 202A7F9C21F5229A00DAFD36 /* Build configuration list for PBXProject "ImageDeleteChecks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 202A7F9821F5229A00DAFD36;
+			productRefGroup = 202A7FA221F5229A00DAFD36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202A7FA021F5229A00DAFD36 /* ImageDeleteChecks */,
+				202A7FB421F5229D00DAFD36 /* ImageDeleteChecksTests */,
+				202A7FBF21F5229D00DAFD36 /* ImageDeleteChecksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202A7F9F21F5229A00DAFD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202A7FAF21F5229D00DAFD36 /* LaunchScreen.storyboard in Resources */,
+				202A7FAC21F5229D00DAFD36 /* Assets.xcassets in Resources */,
+				202A7FAA21F5229A00DAFD36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202A7FB321F5229D00DAFD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202A7FBE21F5229D00DAFD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		487DC3B5E269B43301D5F952 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageDeleteChecksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E821085306C99D46672E907 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageDeleteChecksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB15D7E57C1F3D7167817250 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageDeleteChecks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F806F80F3112022056505827 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ImageDeleteChecks/Pods-ImageDeleteChecks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DKCamera/DKCamera.framework",
+				"${BUILT_PRODUCTS_DIR}/DKImagePickerController/DKImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/DKPhotoGallery/DKPhotoGallery.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TOCropViewController/TOCropViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKCamera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKPhotoGallery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOCropViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageDeleteChecks/Pods-ImageDeleteChecks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202A7F9D21F5229A00DAFD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202A7FA721F5229A00DAFD36 /* ViewController.swift in Sources */,
+				202A7FA521F5229A00DAFD36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202A7FB121F5229D00DAFD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202A7FBA21F5229D00DAFD36 /* ImageDeleteChecksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202A7FBC21F5229D00DAFD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202A7FC521F5229D00DAFD36 /* ImageDeleteChecksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		202A7FB721F5229D00DAFD36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202A7FA021F5229A00DAFD36 /* ImageDeleteChecks */;
+			targetProxy = 202A7FB621F5229D00DAFD36 /* PBXContainerItemProxy */;
+		};
+		202A7FC221F5229D00DAFD36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202A7FA021F5229A00DAFD36 /* ImageDeleteChecks */;
+			targetProxy = 202A7FC121F5229D00DAFD36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		202A7FA821F5229A00DAFD36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202A7FA921F5229A00DAFD36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		202A7FAD21F5229D00DAFD36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202A7FAE21F5229D00DAFD36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		202A7FC721F5229D00DAFD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		202A7FC821F5229D00DAFD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		202A7FCA21F5229D00DAFD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A31E73A33CD6BED499ACEE /* Pods-ImageDeleteChecks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = ImageDeleteChecks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.ImageDeleteChecks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		202A7FCB21F5229D00DAFD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D6D52B0198CD75E9EDB2A5 /* Pods-ImageDeleteChecks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = ImageDeleteChecks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.ImageDeleteChecks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		202A7FCD21F5229D00DAFD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479CFE001643EA9384D1F075 /* Pods-ImageDeleteChecksTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = ImageDeleteChecksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.ImageDeleteChecksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageDeleteChecks.app/ImageDeleteChecks";
+			};
+			name = Debug;
+		};
+		202A7FCE21F5229D00DAFD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327C563F58FE2509C4EC3F41 /* Pods-ImageDeleteChecksTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = ImageDeleteChecksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.ImageDeleteChecksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageDeleteChecks.app/ImageDeleteChecks";
+			};
+			name = Release;
+		};
+		202A7FD021F5229D00DAFD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC21BEB1666A1D8DF0B53DFF /* Pods-ImageDeleteChecksUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = ImageDeleteChecksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.ImageDeleteChecksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageDeleteChecks;
+			};
+			name = Debug;
+		};
+		202A7FD121F5229D00DAFD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010F03664A69F618B9A0E566 /* Pods-ImageDeleteChecksUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = ImageDeleteChecksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.ImageDeleteChecksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageDeleteChecks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202A7F9C21F5229A00DAFD36 /* Build configuration list for PBXProject "ImageDeleteChecks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202A7FC721F5229D00DAFD36 /* Debug */,
+				202A7FC821F5229D00DAFD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202A7FC921F5229D00DAFD36 /* Build configuration list for PBXNativeTarget "ImageDeleteChecks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202A7FCA21F5229D00DAFD36 /* Debug */,
+				202A7FCB21F5229D00DAFD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202A7FCC21F5229D00DAFD36 /* Build configuration list for PBXNativeTarget "ImageDeleteChecksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202A7FCD21F5229D00DAFD36 /* Debug */,
+				202A7FCE21F5229D00DAFD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202A7FCF21F5229D00DAFD36 /* Build configuration list for PBXNativeTarget "ImageDeleteChecksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202A7FD021F5229D00DAFD36 /* Debug */,
+				202A7FD121F5229D00DAFD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 202A7F9921F5229A00DAFD36 /* Project object */;
+}

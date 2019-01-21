@@ -1,0 +1,6 @@
+framework module Pods_ImageDeleteChecksTests {
+  umbrella header "Pods-ImageDeleteChecksTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
